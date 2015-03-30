@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cadastro: HueBr</title>
+	<meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>
+        <a href="index.html">HueBr</a>
+      </h1>
+      <h2>
+      	the zuera hever ends, graças a deus!
+      </h2>
+    </header>
+      <nav>
+                <ul>
+                    <li><a href="index.html">Casa</a></li>
+                    <li><a>Humor</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+    <section>
+      <p>
+        ñ é um br, ñ tem problema, é só fazer o cadastro
+      </p>
+      <form onsubmit="cadastro(this); return false;" method="post">
+      	<br/>
+      		nome de usuário 
+      	<input type="text" name="username">
+        <br/>
+        nome 
+      	<input type="text" name="nome">
+        <br/>
+        	e-mail
+      	<input type="text" name="email">
+      	<br/>
+      		senha
+      	<input type="password" name="password">
+      	<br/>
+        	data de nascimento
+      	<input type="password" name="password">
+      	<br/>
+          sexo
+      	<label for="male">Masculino</label>
+            <input type="radio" name="sex" id="male" value="male">
+            <label for="female">Feminino</label>
+            <input type="radio" name="sex" id="female" value="female">
+      	<br/>
+      	<input type="submit" value="Enviar">
+      </form>
+    </section>
+  </body>
