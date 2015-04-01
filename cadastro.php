@@ -1,18 +1,19 @@
-<!DOCTYPE html>
 <html>
     <head>
         <meta charset="UTF-8">
         <title>index</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script type="text/javascript" src="arquivo.js"></script>
     </head>
     <body>
         <header>
-            <form action="verificaLogin.php" method="post">
-                <legend>LOGIN</legend>
-                <p>Nome:<br/><input type="text" name="nome" /></p>
-                <p>Senha:<br/><input type="password" name="senha" /></p>
-                <p><input id="submeter" type="submit" value="Login" /></p>
-            </form> 
+            <div>
+                <form onsubmit="login(this); return false;" method="POST">
+                    E-mail: <input type="text" name="email">
+                    Senha: <input type="password" name="password">
+                    <input id="send" type="submit" value="Enviar"/>
+                </form>
+            </div>  
         </header>
         <container>  
             <figure><img alt="logo" src="img/logo.png"/></figure>
@@ -21,7 +22,7 @@
                 <h3>Cadastre-se:</h3>
                 <form onsubmit="cadastro(this); return false;" method="POST">
                     <div class="formbox">
-                        <span class="left">Usuário:</span><input type="text" class="right" name="nome"/>
+                        <span class="left">Usuário:</span><input type="text" class="right" name="nome"/><br/>
                         <span class="left">Senha:</span><input type="password" class="right" name="password"/>
                         <span class ="left"><input id="send" type="submit" value="Enviar"/></span><br/>
                     </div>
@@ -42,4 +43,3 @@
         </container>
     </body>
 </html>
-       

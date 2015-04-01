@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>index</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-    <body>
+	<head>
+		<title>Aula 08</title>
+		<meta charset="UTF-8"/>
+        <link rel="Stylesheet" href="style.css" type="text/css"/>
+	</head>
+	<body>
         <header>
             <form action="verificaLogin.php" method="post">
                 <legend>LOGIN</legend>
@@ -18,14 +18,7 @@
             <figure><img alt="logo" src="img/logo.png"/></figure>
             <h2>The zuera never ends, graças a Deus&trade;!</h2>
             <section>
-                <h3>Cadastre-se:</h3>
-                <form onsubmit="cadastro(this); return false;" method="POST">
-                    <div class="formbox">
-                        <span class="left">Usuário:</span><input type="text" class="right" name="nome"/>
-                        <span class="left">Senha:</span><input type="password" class="right" name="password"/>
-                        <span class ="left"><input id="send" type="submit" value="Enviar"/></span><br/>
-                    </div>
-                </form>
+                <h1>BEM VINDO AO HU3BR</h1>
             </section>
             <footer>
                 <nav>
@@ -39,7 +32,6 @@
                 </nav>
                 Copyright &copy; Patrick, Bruno e Guilherme 2015
             </footer>
-        </container>
-    </body>
+        </container>  
+	</body>
 </html>
-       

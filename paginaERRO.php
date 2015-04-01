@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>index</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
-    </head>
-    <body>
+	<head>
+		<title>Aula 08</title>
+		<meta charset="UTF-8"/>
+        <link rel="Stylesheet" href="style.css" type="text/css"/>
+	</head>
+	<body>
         <header>
             <form action="verificaLogin.php" method="post">
                 <legend>LOGIN</legend>
@@ -18,6 +18,8 @@
             <figure><img alt="logo" src="img/logo.png"/></figure>
             <h2>The zuera never ends, graças a Deus&trade;!</h2>
             <section>
+                <h1>"YOU SHALL NOT PASS!!"</h1>
+                <h2>- - - SENHA INCORRETA - - -</h2>
                 <h3>Cadastre-se:</h3>
                 <form onsubmit="cadastro(this); return false;" method="POST">
                     <div class="formbox">
@@ -39,7 +41,6 @@
                 </nav>
                 Copyright &copy; Patrick, Bruno e Guilherme 2015
             </footer>
-        </container>
-    </body>
+        </container>  
+	</body>
 </html>
-       
