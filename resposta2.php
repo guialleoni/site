@@ -2,7 +2,9 @@
 <html>
 
     <head>
-        <title>Formulario1</title>
+        <meta charset="utf-8"/>
+        <title>Formulario2</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
 
     <body>
@@ -17,8 +19,7 @@
         $data=$_POST['data'];
 
 
-
-        echo "<h1>Suas informações são:<br>";
+        echo "<h2>Suas informações são:</h2><br>";
         echo $nome."<br>";
         echo $nomecompleto."<br>";
         echo $email."<br>";

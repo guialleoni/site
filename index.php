@@ -20,7 +20,7 @@
             <h2>The zuera never ends, graças a Deus&trade;!</h2>
             <section>
                 <h3>Cadastre-se:</h3>
-                <form action="formulario.php" method="POST">
+                <form action="cadastro.php" method="POST">
                     <div class="formbox">
                         <span class="left">Usuário:</span><input type="text" class="right" name="nome"/><br/>
                         <span class="left">Senha:</span><input type="password" class="right" name="password"/><br/>

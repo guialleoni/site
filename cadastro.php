@@ -2,19 +2,12 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>index</title>
+        <title>cadastro</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script type="text/javascript" src="arquivo.js"></script>
     </head>
     <body>
         <header>
-            <div>
-                <form onsubmit="login(this); return false;" method="POST">
-                    E-mail: <input type="text" name="email">
-                    Senha: <input type="password" name="password">
-                    <input id="send" type="submit" value="Enviar"/>
-                </form>
-            </div>  
+            
         </header>
         <container>  
             <figure><img alt="logo" src="img/logo.png"/></figure>
