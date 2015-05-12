@@ -18,7 +18,16 @@
             <figure><img alt="logo" src="img/logo.png"/></figure>
             <h2>The zuera never ends, graças a Deus&trade;!</h2>
             <section>
-                <h1>BEM VINDO AO HU3BR</h1>
+                <h1>"YOU SHALL NOT PASS!!"</h1>
+                <h2>- - - SENHA INCORRETA - - -</h2>
+                <h3>Cadastre-se:</h3>
+                <form onsubmit="cadastro(this); return false;" method="POST">
+                    <div class="formbox">
+                        <span class="left">Usuário:</span><input type="text" class="right" name="nome"/>
+                        <span class="left">Senha:</span><input type="password" class="right" name="password"/>
+                        <span class ="left"><input id="send" type="submit" value="Enviar"/></span><br/>
+                    </div>
+                </form>
             </section>
             <footer>
                 <nav>
