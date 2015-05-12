@@ -8,25 +8,19 @@
     <body>
         <header>
             <div>
-                <form action="verificaLogin.php" method="post">
-                    Nome:<input type="text" name="nome"/>
-                    Senha:<input type="password" name="senha"/>
+               <form method="post" action="validaLogin.php">
+                    <small><label for="username" >Usuário:</label></small> <input type="text" name="username"/>
+                    <small><label for="senha" >Senha:</label></small> <input type="password" name="senha"/>
                     <input id="submeter" type="submit" value="Login"/>
                 </form>
             </div>
         </header>
         <container>  
             <figure><img alt="logo" src="img/logo.png"/></figure>
-            <h2>The zuera never ends, graças a Deus&trade;!</h2>
+            <h2>The zuera never ends&trade;!</h2>
             <section>
-                <h3>Cadastre-se:</h3>
-                <form action="cadastro.php" method="POST">
-                    <div class="formbox">
-                        <span class="left">Usuário:</span><input type="text" class="right" name="nome"/><br/>
-                        <span class="left">Senha:</span><input type="password" class="right" name="password"/><br/>
-                        <span class ="left"><input id="send" type="submit" value="Enviar"/></span><br/>
-                    </div><br/>
-                </form>
+                <h3>EM CONTRUÇÃO</h3>
+                
             </section>
             <footer>
                 <nav>
